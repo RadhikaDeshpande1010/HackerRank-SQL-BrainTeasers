@@ -1,9 +1,9 @@
 ###
 **[HackerRank SQL Query](https://www.hackerrank.com/challenges/select-by-id/problem?isFullScreen=true)**
 
-Problem: Query all columns (attributes) for every row in the CITY table.
+Query all columns for a city in CITY with the ID 1661.
 
-Input Format:
+The CITY table is described as follows:
 
 The CITY table is described as follows:
 
