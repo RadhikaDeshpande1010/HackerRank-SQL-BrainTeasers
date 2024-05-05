@@ -1,9 +1,9 @@
 ###
 **[HackerRank Select ALL Query](https://www.hackerrank.com/challenges/select-all-sql/problem?isFullScreen=true)**
 
-Query all columns (attributes) for every row in the CITY table.
+Problem: Query all columns (attributes) for every row in the CITY table.
 
-Input Format
+Input Format:
 
 The CITY table is described as follows:
 
