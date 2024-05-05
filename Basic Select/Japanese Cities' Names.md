@@ -17,7 +17,7 @@ The CITY table is described as follows:
 
 **Solution**
 ```sql
-SELECT * 
-FROM CITY 
-WHERE COUNTRYCODE = 'JPN';        
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE = 'JPN';     
 ```
