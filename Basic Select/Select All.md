@@ -1,5 +1,5 @@
 ###
-**[HackerRank Select ALL Query](https://www.hackerrank.com/challenges/select-all-sql/problem?isFullScreen=true)**
+**[HackerRank SQL Query](https://www.hackerrank.com/challenges/select-all-sql/problem?isFullScreen=true)**
 
 Problem: Query all columns (attributes) for every row in the CITY table.
 
