@@ -4,7 +4,7 @@
 
 ## Table of Contents
 * [Introduction](#Introduction)
-* [Basic Select](#Basic Select Directory)
+* [Basic Select](#Basic Select)
   
 ## Introduction
 * Exploring and mastering SQL queries with HackerRank's extensive collection of SQL challenges, showcasing proficiency in SQL queries, data manipulation, and database management.
