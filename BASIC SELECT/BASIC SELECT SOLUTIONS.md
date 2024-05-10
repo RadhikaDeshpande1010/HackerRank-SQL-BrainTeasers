@@ -23,6 +23,8 @@ WHERE COUNTRYCODE = 'USA'
 AND POPULATION > 100000;
 ```
 
+<hr>
+
 ###
 **[Revising the Select Query 2](https://www.hackerrank.com/challenges/revising-the-select-query-2/problem?isFullScreen=true)**
 
@@ -48,6 +50,8 @@ WHERE COUNTRYCODE = 'USA'
 AND POPULATION > 120000;
 ```
 
+<hr>
+
 ###
 **[Select All](https://www.hackerrank.com/challenges/select-all-sql/problem?isFullScreen=true)**
 
@@ -69,6 +73,8 @@ The CITY table is described as follows:
 ```sql
 SELECT * FROM CITY;
 ```
+
+<hr>
 
 ###
 **[Select By ID](https://www.hackerrank.com/challenges/select-by-id/problem?isFullScreen=true)**
@@ -94,6 +100,8 @@ FROM CITY
 WHERE ID = 1661;
 ```
 
+<hr>
+
 ###
 **[Japanese Citie's Attributes](https://www.hackerrank.com/challenges/japanese-cities-attributes/problem?isFullScreen=true)**
 
@@ -118,6 +126,8 @@ FROM CITY
 WHERE COUNTRYCODE = 'JPN';  
 ```
 
+<hr>
+
 ###
 **[Japanese Citie's Names](https://www.hackerrank.com/challenges/japanese-cities-name/problem?isFullScreen=true)**
 
@@ -141,6 +151,8 @@ SELECT NAME
 FROM CITY
 WHERE COUNTRYCODE = 'JPN';     
 ```
+
+<hr>
 
 ###
 **[Weather Observation Station 1](https://www.hackerrank.com/challenges/weather-observation-station-1/problem?isFullScreen=true)**
@@ -167,6 +179,8 @@ SELECT CITY, STATE
 FROM STATION;
 ```
 
+<hr>
+
 ###
 **[Weather Observation Station 3](https://www.hackerrank.com/challenges/weather-observation-station-3/problem?isFullScreen=true)**
 
@@ -191,6 +205,8 @@ FROM STATION
 WHERE MOD(ID,2)=0
 ORDER BY CITY ASC;
 ```
+
+<hr>
 
 ###
 **[Weather Observation Station 4](https://www.hackerrank.com/challenges/weather-observation-station-4/problem?isFullScreen=true)**
@@ -218,6 +234,8 @@ For example, if there are three records in the table with CITY values 'New York'
 SELECT COUNT(CITY) - COUNT(DISTINCT CITY)
 FROM STATION;
 ```
+
+<hr>
 
 ###
 **[Weather Observation Station 5](https://www.hackerrank.com/challenges/weather-observation-station-5/problem?isFullScreen=true)**
@@ -263,6 +281,8 @@ UNION
 SELECT * FROM (SELECT DISTINCT city, LENGTH(city) FROM station ORDER BY LENGTH(city) DESC, city ASC) WHERE ROWNUM = 1;  
 ```
 
+<hr>
+
 ###
 **[Weather Observation Station 6](https://www.hackerrank.com/challenges/weather-observation-station-6/problem?isFullScreen=true)**
 
@@ -290,6 +310,8 @@ FROM STATION
 WHERE lower(substr(CITY,1,1)) in ('a','e','i','o','u') ;
 ```
 
+<hr>
+
 ###
 **[Weather Observation Station 7](https://www.hackerrank.com/challenges/weather-observation-station-7/problem?isFullScreen=true)**
 
@@ -314,4 +336,6 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 SELECT DISTINCT(CITY) FROM STATION WHERE CITY LIKE '%a' OR CITY LIKE '%e' OR CITY LIKE '%i' OR CITY LIKE '%o' 
 OR CITY LIKE '%u';  
 ```
+
+<hr>
 
