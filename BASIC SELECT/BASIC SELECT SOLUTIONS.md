@@ -383,3 +383,121 @@ WHERE (CITY LIKE 'A%' OR CITY LIKE 'E%' OR CITY LIKE 'I%' OR CITY LIKE 'O%' OR C
 AND (CITY LIKE '%a' OR CITY LIKE '%e' OR CITY LIKE '%i' OR CITY LIKE '%o' OR CITY LIKE '%u') 
 ORDER BY CITY;   
 ```
+
+<hr>
+
+###
+**[Weather Observation Station 9](https://www.hackerrank.com/challenges/weather-observation-station-9/problem?isFullScreen=true)**
+
+Problem Statement: 
+
+Query the list of CITY names from STATION that do not start with vowels. Your result cannot contain duplicates.
+
+The STATION table is described as follows:
+
+|  Field | Type |
+|-------|-----|
+| ID  | NUMBER |
+| CITY | VARCHAR2(21)   |
+| STATE  | VARCHAR2(2)  |
+| LAT_N |  NUMBER |
+| LONG_W | NUMBER |
+
+where LAT_N is the northern latitude and LONG_W is the western longitude.
+
+**Solution**
+```sql
+SELECT DISTINCT CITY 
+FROM STATION 
+WHERE UPPER(SUBSTR(CITY,1,1)) NOT IN ('A','E','I','O','U') 
+AND LOWER(SUBSTR(CITY,1,1)) NOT IN ('a','e','i','o','u');   
+```
+
+<hr>
+
+###
+**[Weather Observation Station 10](https://www.hackerrank.com/challenges/weather-observation-station-10/problem?isFullScreen=true)**
+
+Problem Statement: 
+
+Query the list of CITY names from STATION that do not end with vowels. Your result cannot contain duplicates.
+
+The STATION table is described as follows:
+
+|  Field | Type |
+|-------|-----|
+| ID  | NUMBER |
+| CITY | VARCHAR2(21)   |
+| STATE  | VARCHAR2(2)  |
+| LAT_N |  NUMBER |
+| LONG_W | NUMBER |
+
+where LAT_N is the northern latitude and LONG_W is the western longitude.
+
+**Solution**
+```sql
+SELECT DISTINCT CITY 
+FROM STATION 
+WHERE UPPER(SUBSTR(CITY, LENGTH(CITY), 1)) NOT IN ('A','E','I','O','U') 
+AND LOWER(SUBSTR(CITY, LENGTH(CITY),1)) NOT IN ('a','e','i','o','u');    
+```
+
+<hr>
+
+###
+**[Weather Observation Station 11](https://www.hackerrank.com/challenges/weather-observation-station-11/problem?isFullScreen=true)**
+
+Problem Statement: 
+
+Query the list of CITY names from STATION that either do not start with vowels or do not end with vowels. Your result cannot contain duplicates.
+
+The STATION table is described as follows:
+
+|  Field | Type |
+|-------|-----|
+| ID  | NUMBER |
+| CITY | VARCHAR2(21)   |
+| STATE  | VARCHAR2(2)  |
+| LAT_N |  NUMBER |
+| LONG_W | NUMBER |
+
+where LAT_N is the northern latitude and LONG_W is the western longitude.
+
+**Solution**
+```sql
+SELECT DISTINCT CITY 
+FROM STATION 
+WHERE LOWER(SUBSTR(CITY,1,1)) NOT IN ('a','e','i','o','u') 
+OR LOWER(SUBSTR(CITY, LENGTH(CITY),1)) NOT IN ('a','e','i','o','u');     
+```
+
+<hr>
+
+###
+**[Weather Observation Station 12](https://www.hackerrank.com/challenges/weather-observation-station-12/problem?isFullScreen=true)**
+
+Problem Statement: 
+
+Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. Your result cannot contain duplicates.
+
+The STATION table is described as follows:
+
+|  Field | Type |
+|-------|-----|
+| ID  | NUMBER |
+| CITY | VARCHAR2(21)   |
+| STATE  | VARCHAR2(2)  |
+| LAT_N |  NUMBER |
+| LONG_W | NUMBER |
+
+where LAT_N is the northern latitude and LONG_W is the western longitude.
+
+**Solution**
+```sql
+SELECT DISTINCT CITY 
+FROM STATION 
+WHERE LOWER(SUBSTR(CITY,1,1)) NOT IN ('a','e','i','o','u') 
+AND LOWER(SUBSTR(CITY,LENGTH(CITY),1)) NOT IN ('a','e','i','o','u')  
+```
+
+<hr>
