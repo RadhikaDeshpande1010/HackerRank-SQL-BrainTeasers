@@ -19,6 +19,6 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 **Solution**
 ```sql
-SELECT COUNT(CITY) - COUNT(DISTINCT CITY)
-FROM STATION;
+SELECT DISTINCT(CITY) FROM STATION WHERE CITY LIKE '%a' OR CITY LIKE '%e' OR CITY LIKE '%i' OR CITY LIKE '%o' 
+OR CITY LIKE '%u';  
 ```
