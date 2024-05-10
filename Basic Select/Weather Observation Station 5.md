@@ -35,8 +35,6 @@ When ordered alphabetically, the CITY names are listed as ABC, DEF, PQRS, and WX
 Note
 You can write two separate queries to get the desired output. It need not be a single query.
 
-For example, if there are three records in the table with CITY values 'New York', 'New York', 'Bengalaru', there are 2 different city names: 'New York' and 'Bengalaru'. The query returns , because because total number of records - number of unique city namess = 3 - 2 = 1.
-
 **Solution**
 ```sql
 SELECT * FROM (SELECT DISTINCT city, LENGTH(city) FROM station ORDER BY LENGTH(city) ASC, city ASC) WHERE ROWNUM = 1   
