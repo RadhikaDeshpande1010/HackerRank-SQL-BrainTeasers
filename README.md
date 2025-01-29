@@ -18,12 +18,8 @@
 ## Directory Attributes
 
 ### [SQL Basic Select](https://github.com/RadhikaDeshpande1010/HackerRank-SQL-BrainTeasers/blob/main/SQL_SRC/BASIC%20SELECT%20SOLUTIONS.md)
-<p> 
-    This directory contains basic SQL challenges on HackerRank that offer a platform to practice fundamental SQL queries. These challenges cover essential SQL concepts such as `SELECT` statements, filtering data with `WHERE` clause, sorting with `ORDER BY`, and aggregating data with `GROUP BY`.  
-</p>
-
-Perfect for beginners and those looking to reinforce their SQL skills, these exercises provide hands-on experience in solving real-world SQL problems.
-
+* This directory contains basic SQL challenges on HackerRank that offer a platform to practice fundamental SQL queries. These challenges cover essential SQL concepts such as `SELECT` statements, filtering data with `WHERE` clause, sorting with `ORDER BY`, and aggregating data with `GROUP BY`.  
+* Perfect for beginners and those looking to reinforce their SQL skills, these exercises provide hands-on experience in solving real-world SQL problems.
 
 <h4> SQL Intermediate </h4>
 <p> This directory contains intermediate SQL challenges from HackerRank, covering a range of topics including advanced querying, joins, subqueries, and data manipulation. Sharpen your SQL skills with these hands-on exercises designed to enhance your understanding of database management and query optimization. </p>
