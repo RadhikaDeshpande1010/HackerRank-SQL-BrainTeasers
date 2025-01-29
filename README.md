@@ -1,6 +1,6 @@
 # HACKERRANK SQL PROBLEM STATEMENTS 
 
-<img src="https://github.com/RadhikaDeshpande1010/HackerRank-SQL-BrainTeasers/blob/main/SQL_HackerRank_Banner.png" height="270" width="1000">
+<img src="https://github.com/RadhikaDeshpande1010/HackerRank-SQL-BrainTeasers/blob/main/SQL_HackerRank_Banner.png" height="270" width="1200">
 
 ## Table of Contents
 * [Introduction](#Introduction)
